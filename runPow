@@ -1,0 +1,6 @@
+#!/bin/sh
+
+gcc pow.c -O3 -o pow
+./pow "$@"
+
+node pow.js
